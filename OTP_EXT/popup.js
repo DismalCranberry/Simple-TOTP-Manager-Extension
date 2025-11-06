@@ -27,7 +27,7 @@ function applyBtnCss(btn, colors) {
         border: none;
         border-radius: 10px;
         background: linear-gradient(90deg, ${c1}, ${c2});
-        color: #fff;
+        color: #000;
         font: 600 12px/1 system-ui, sans-serif;
         cursor: pointer;
         user-select: none;
@@ -156,7 +156,7 @@ async function initUI() {
         entryEl.style.cssText += `
     border-radius: 10px;
     background: linear-gradient(90deg, ${c1}, ${c2});
-    color: #fff;
+    color: #000;
     font-weight: 600;
     box-shadow: 0 3px 8px rgba(0,0,0,.25);
     transition: transform .15s ease, filter .15s ease;
